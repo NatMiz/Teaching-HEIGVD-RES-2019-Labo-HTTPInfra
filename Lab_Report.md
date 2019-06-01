@@ -21,3 +21,9 @@
 ### Dynamic cluster management
 
 ### Management UI
+
+## Source
+* <https://hub.docker.com/_/php/>
+* <https://www.digitalocean.com/community/tutorials/how-to-configure-the-apache-web-server-on-an-ubuntu-or-debian-vps>
+* <https://help.ubuntu.com/lts/serverguide/httpd.html>
+* <https://httpd.apache.org/>
