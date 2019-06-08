@@ -1,5 +1,5 @@
 FROM node:12.4
 
-COPY src /opt/app
+COPY src /opt/app/
 
-CMD ["node", "/opt/addindex.js"]
+CMD ["node", "/opt/app/index.js"]
