@@ -13,7 +13,10 @@
  Pour accéder à la page web il faut copier cette adresse ip dans un navigateur web, en pensant à autoriser les scripts. Sinon la page ne s'affichera pas correctement.
 
 ## Step 2: Dynamic HTTP server with express.js
-L'image Docker est basé sur la version 12.4 de Node.js.
+L'image Docker est basée sur la version 12.4 de Node.js. Nous indiquons que le serveur écoute sur le port 3000 avec l'instruction `EXPOSE 3000`.
+
+Pour construire et déployer le conteneur, il suffit de lancer le script `launchDocker.sh` dans le dossier `express-image`.
+Le code de l'application est copié dans le répertoire `/opt/app/` du conteneur lors de sa création. L'application est ensuite lancée au démarrage du conteneur.
 
 
 ## Step 3: Reverse proxy with apache (static configuration)
