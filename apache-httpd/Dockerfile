@@ -1,3 +1,6 @@
 FROM php:7.2-apache
 
-COPY content/ /var/www/html/
+EXPOSE 80
+
+#COPY content/ /var/www/html/
+COPY content-alt/ /var/www/html/
