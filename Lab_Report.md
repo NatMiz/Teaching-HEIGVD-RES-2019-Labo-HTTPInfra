@@ -13,6 +13,7 @@
  Pour accéder à la page web il faut copier cette adresse ip dans un navigateur web, en pensant à autoriser les scripts. Sinon la page ne s'affichera pas correctement.
 
 ## Step 2: Dynamic HTTP server with express.js
+L'image Docker est basé sur la version 12.4 de Node.js.
 
 
 ## Step 3: Reverse proxy with apache (static configuration)
