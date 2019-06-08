@@ -39,5 +39,9 @@ L'image Docker est basé sur la version 12.4 de Node.js.
 * <https://httpd.apache.org/>
 * <https://startbootstrap.com/>
 * <https://bootstrapmade.com>
+* <https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/>
 
 - <https://docs.docker.com/engine/reference/commandline/inspect/>
+- <https://chancejs.com/index.html>
+- <https://expressjs.com/>
+- <https://docs.traefik.io/>
