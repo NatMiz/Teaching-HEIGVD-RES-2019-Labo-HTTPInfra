@@ -20,6 +20,7 @@ Le code de l'application est copié dans le répertoire `/opt/app/` du conteneur
 
 
 ## Step 3: Reverse proxy with apache (static configuration)
+La configuration statique est fragile car on code en dur les adresses ip des conteneurs. Étant donné que celles-ci sont attribuées dynamiquement, la configuration pourrait ne plus être valable au prochain redémarrage.
 
 ## Step 4: AJAX requests with JQuery
 
